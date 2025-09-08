@@ -46,16 +46,29 @@ span {
 }
 
 
+
+
 /* 4. DESKTOP  RESPONSIVE */ 
+
+header{
+    width: 100%;
+    position: relative;
+    height: 100vh;
+    background: url("../img/Rectangle\ 1441.png");
+    background-size: cover;
+    /* background-position: center; */
+    background-position-x: center;
+    background-position-y: bottom;
+}
+
+/* 5. TABLET  RESPONSIVE*/
 @media screen and (min-width:768px) and (max-width: 100px){ 
     
 }
 
+/* 6. SMARTPHONE RESPONSIVE*/
 
-/* 5. TABLET  RESPONSIVE*/
 
 @media screen and (min-width:320px) and (max-width: 767px){ 
     
 }
-
-/* 6. SMARTPHONE RESPONSIVE*/
