@@ -38,8 +38,8 @@ span {
     --white-color: #fff;
     --dark-color: #1e1e1e;
     --fs-title1: 80px;
-    --fs-title2: 42px;
-    --fs-title3: 24px;
+    --fs-title2: 38px;
+    --fs-title3: 22px;
     --fs-title4: 18px;
     --fs-text: 16px;
 
@@ -98,7 +98,7 @@ header nav .logo:hover {
 
 }
 
-header .bag-button{
+header .bag-button {
 
     background: transparent;
     border: none;
@@ -108,7 +108,7 @@ header .bag-button{
 
 }
 
-header .bag-button .counter-products{
+header .bag-button .counter-products {
 
     width: 26px;
     height: 26px;
@@ -122,7 +122,7 @@ header .bag-button .counter-products{
 
 }
 
-#hero{
+#hero {
 
     width: 100%;
     text-align: center;
@@ -130,7 +130,7 @@ header .bag-button .counter-products{
 
 }
 
-#hero h2{
+#hero h2 {
 
     font-size: var(--fs-title1);
     font-weight: 700;
@@ -138,7 +138,7 @@ header .bag-button .counter-products{
 
 }
 
-#hero p{
+#hero p {
 
     color: var(--white-color);
     font-size: var(--fs-title3);
@@ -146,7 +146,7 @@ header .bag-button .counter-products{
 
 }
 
-#hero form{
+#hero form {
 
     width: 400px;
     position: relative;
@@ -154,7 +154,7 @@ header .bag-button .counter-products{
 
 }
 
-#hero form input{
+#hero form input {
 
     border-radius: 40px;
     padding: 15px 60px 15px 20px;
@@ -168,11 +168,11 @@ header .bag-button .counter-products{
 }
 
 #hero form input::placeholder {
-    color: var(--white-color); 
+    color: var(--white-color);
 }
 
 
-#hero form button{
+#hero form button {
 
     width: 40px;
     height: 40px;
@@ -183,6 +183,65 @@ header .bag-button .counter-products{
     position: absolute;
     right: 6%;
     top: 18%;
+
+}
+
+/* ESTILOS MAIN */
+
+
+#choosing-us {
+
+    width: 100%;
+    position: relative;
+    background: var(--white-color);
+    padding: 120px 0;
+
+}
+
+#choosing-us h2 {
+
+    font-weight: 700;
+    font-size: var(--fs-title2);
+    color: var(--dark-color);
+    padding-top: 25px;
+
+}
+
+
+#choosing-us h3 {
+
+    font-size: var(--fs-title3);
+    font-weight: 700;
+    color: var(--dark-color);
+
+}
+
+#choosing-us p {
+
+    font-size: var(--fs-text);
+    color: var(--dark-color);
+    margin-top: 20px;
+
+}
+
+#choosing-us a{
+
+    text-decoration: none;
+    color: var(--primary-color);
+
+
+}
+
+#choosing-us a i{
+
+    margin-left: 4px;
+    transition: .5s;
+
+}
+
+#choosing-us a:hover i{
+
+    margin-left: 15px;
 
 }
 
