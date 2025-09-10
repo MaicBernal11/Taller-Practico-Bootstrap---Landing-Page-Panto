@@ -340,7 +340,7 @@ header .bag-button .counter-products {
 }
 
 
-#products .cont-info{
+#products .cont-info {
 
     background: var(--gray-color);
     text-align: left;
@@ -349,14 +349,14 @@ header .bag-button .counter-products {
 
 }
 
-#products .cont-info p.category{
+#products .cont-info p.category {
 
     font-size: var(--fs-text);
     color: #8d8d8d;
 
 }
 
-#products .cont-info h3{
+#products .cont-info h3 {
 
     font-size: var(--fs-title3);
     font-weight: 700;
@@ -365,19 +365,19 @@ header .bag-button .counter-products {
 }
 
 
-#products .stars i{
+#products .stars i {
 
     color: #f6b76f;
 
 }
 
-#products .stars{
+#products .stars {
 
     margin-bottom: 30px;
 
 }
 
-#products .card-product h4{
+#products .card-product h4 {
 
     font-size: var(--fs-title3);
     font-weight: 600;
@@ -386,7 +386,7 @@ header .bag-button .counter-products {
 
 }
 
-#products .card-product h4 span{
+#products .card-product h4 span {
 
     font-size: 15px;
     margin-right: 5px;
@@ -394,7 +394,7 @@ header .bag-button .counter-products {
 
 }
 
-#products .card-product button{
+#products .card-product button {
 
     background: #0D1B39;
     width: 48px;
@@ -403,12 +403,12 @@ header .bag-button .counter-products {
     color: var(--white-color);
     border: none;
     font-size: 25px;
-    
+
 
 }
 
 
-#products .slick-arrow{
+#products .slick-arrow {
 
     background: var(--white-color);
     border: 1px solid #dbdada;
@@ -419,12 +419,186 @@ header .bag-button .counter-products {
 
 }
 
-#products .slick-arrow::before{
+#products .slick-arrow::before {
 
     color: #0D1B39;
 
 }
 
+
+/* SECCION EXPERIENCES */
+
+
+#experiences {
+
+    width: 100%;
+    position: relative;
+    padding: 140px 0;
+
+}
+
+
+#experiences .cont-img {
+
+    position: relative;
+    left: -20px;
+
+}
+
+#experiences .cont-img img {
+
+    box-shadow: -15px 16px 15px -10px #af7d43;
+
+}
+
+#experiences .cont-img::before {
+
+    content: "";
+    width: 400px;
+    height: 400px;
+    background: #f7f7f7;
+    position: absolute;
+    z-index: -1;
+    top: -60px;
+    border-radius: 20px;
+
+}
+
+
+#experiences .cont-img::after {
+
+    content: "";
+    width: 300px;
+    height: 300px;
+    background: #f7f7f7;
+    position: absolute;
+    z-index: -1;
+    right: 85px;
+    top: 70px;
+    border-radius: 20px;
+
+
+}
+
+#experiences .cont-info {
+
+    padding: 20px 60px 0 0;
+
+}
+
+#experiences .cont-info h3 {
+
+    color: var(--primary-color);
+    font-size: var(--fs-title4);
+    text-transform: uppercase;
+
+}
+
+#experiences .cont-info h2 {
+
+    color: #1e1e1e;
+    font-size: var(--fs-title2);
+    font-weight: 700;
+    width: 480px;
+    margin-top: 20px;
+
+}
+
+#experiences .cont-info p {
+
+    color: var(--dark-color);
+    font-size: var(--fs-text);
+    width: 520px;
+    margin-top: 20px;
+
+}
+
+#experiences .cont-info a {
+
+    text-decoration: none;
+    color: var(--primary-color);
+
+}
+
+
+#experiences .cont-info i {
+
+    margin-left: 4px;
+    transition: .5s;
+
+}
+
+#experiences .cont-info a:hover i {
+
+    margin-left: 15px;
+
+}
+
+
+/* SECCION  MATERIALS */
+
+
+#materials {
+
+    width: 100%;
+    position: relative;
+    padding: 140px 0;
+
+}
+
+#materials .cont-info {
+
+    padding: 0 0 20px 60px;
+    margin-top: 50px;
+}
+
+#materials .cont-info h3 {
+
+    color: var(--primary-color);
+    font-size: var(--fs-title4);
+    text-transform: uppercase;
+
+}
+
+#materials .cont-info h2 {
+
+    color: #1e1e1e;
+    font-size: var(--fs-title2);
+    font-weight: 700;
+    width: 480px;
+    margin-top: 20px;
+
+}
+
+#materials .cont-info p {
+
+    color: var(--dark-color);
+    font-size: var(--fs-text);
+    width: 520px;
+    margin-top: 20px;
+
+}
+
+#materials .cont-info a {
+
+    text-decoration: none;
+    color: var(--primary-color);
+
+}
+
+
+#materials .cont-info i {
+
+    margin-left: 4px;
+    transition: .5s;
+
+}
+
+#materials .cont-info a:hover i {
+
+    margin-left: 15px;
+
+}
 
 
 
