@@ -304,6 +304,134 @@ header .bag-button .counter-products {
 }
 
 
+
+#products .card-product {
+
+    margin: 0 15px !important;
+
+
+}
+
+#products .card-product .cont-img {
+
+    background: #e6e6e6;
+    position: relative;
+    width: 100%;
+    min-height: 220px;
+    border-radius: 20px 20px 0 0;
+
+}
+
+#products .cont-img img {
+
+    width: 220px;
+    position: absolute;
+    top: -70px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+
+}
+
+#products .slick-list {
+
+    padding: 160px 0;
+
+}
+
+
+#products .cont-info{
+
+    background: var(--gray-color);
+    text-align: left;
+    padding: 20px;
+    border-radius: 0 0 20px 20px;
+
+}
+
+#products .cont-info p.category{
+
+    font-size: var(--fs-text);
+    color: #8d8d8d;
+
+}
+
+#products .cont-info h3{
+
+    font-size: var(--fs-title3);
+    font-weight: 700;
+    color: #0D1B39;
+
+}
+
+
+#products .stars i{
+
+    color: #f6b76f;
+
+}
+
+#products .stars{
+
+    margin-bottom: 30px;
+
+}
+
+#products .card-product h4{
+
+    font-size: var(--fs-title3);
+    font-weight: 600;
+    display: flex;
+    margin: 0;
+
+}
+
+#products .card-product h4 span{
+
+    font-size: 15px;
+    margin-right: 5px;
+    font-weight: 600;
+
+}
+
+#products .card-product button{
+
+    background: #0D1B39;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    color: var(--white-color);
+    border: none;
+    font-size: 25px;
+    
+
+}
+
+
+#products .slick-arrow{
+
+    background: var(--white-color);
+    border: 1px solid #dbdada;
+    width: 50px;
+    height: 50px;
+    z-index: 999;
+    border-radius: 50%;
+
+}
+
+#products .slick-arrow::before{
+
+    color: #0D1B39;
+
+}
+
+
+
+
+
+
+
+
 /* 5. TABLET  RESPONSIVE*/
 @media screen and (min-width:768px) and (max-width: 100px) {}
 
