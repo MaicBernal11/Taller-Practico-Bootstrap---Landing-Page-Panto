@@ -31,6 +31,13 @@ span {
     font-family: "Raleway", sans-serif;
 }
 
+
+body{
+
+overflow-x: hidden;
+
+}
+
 :root {
 
     --primary-color: #e58411;
@@ -542,35 +549,35 @@ header .bag-button .counter-products {
 
     width: 100%;
     position: relative;
-    padding: 140px 0;
+    padding: 50px 0;
 
 }
 
-#materials .cont-info {
-
-    padding: 0 0 20px 60px;
-    margin-top: 50px;
+#materials .info {
+    padding: 0px 60px 0 60px;
 }
 
-#materials .cont-info h3 {
+#materials .info h3 {
 
     color: var(--primary-color);
     font-size: var(--fs-title4);
     text-transform: uppercase;
+    padding-top: 170px;
 
 }
 
-#materials .cont-info h2 {
+#materials .info h2 {
 
     color: #1e1e1e;
     font-size: var(--fs-title2);
     font-weight: 700;
     width: 480px;
     margin-top: 20px;
+    padding-right: 50px;
 
 }
 
-#materials .cont-info p {
+#materials .info p {
 
     color: var(--dark-color);
     font-size: var(--fs-text);
@@ -579,7 +586,7 @@ header .bag-button .counter-products {
 
 }
 
-#materials .cont-info a {
+#materials .info a {
 
     text-decoration: none;
     color: var(--primary-color);
@@ -587,18 +594,63 @@ header .bag-button .counter-products {
 }
 
 
-#materials .cont-info i {
+#materials .info i {
 
     margin-left: 4px;
     transition: .5s;
 
 }
 
-#materials .cont-info a:hover i {
+#materials .info a:hover i {
 
     margin-left: 15px;
 
 }
+
+#materials  .imagenes img{
+
+    margin: 20px 0;
+    border-radius: 15px;
+
+}
+
+#materials  .imagen-2 img{
+
+    position: relative;
+    left: 49px;
+    bottom: -150px;
+
+}
+
+#materials  .imagen-2::before{
+
+    content: "";
+    width: 400px;
+    height: 390px;
+    background: #f7f7f7;
+    position: absolute;
+    z-index: -1;
+    bottom: 300px;
+    right: -135px;
+    border-radius: 20px;
+}
+
+#materials  .imagen-2 img{
+
+    box-shadow: 14px 14px 19px -10px #af7d43;
+
+}
+
+#materials  .imagenes img{
+
+box-shadow:  0px 13px 19px -10px #9f978e ;
+}
+
+
+/* SECCION REVIEWS */
+
+
+
 
 
 
