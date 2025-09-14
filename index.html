@@ -11,6 +11,7 @@
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" type="text/css"
         href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -25,42 +26,42 @@
         <nav class="navbar navbar-expand-lg bg-transparente">
             <div class="container">
 
-                <a class="navbar-brand logo" href="#">Panto</a>
+                <a class="navbar-brand logo " data-aos="zoom-in" href="#">Panto</a>
 
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <span><img src="img/menu (2).png" alt=""></span>
                 </button>
 
                 <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="#" data-aos="zoom-in">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Furniture</a>
+                            <a class="nav-link" href="#materials" data-aos="zoom-in">Furniture</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Shop</a>
+                            <a class="nav-link" href="#products" data-aos="zoom-in">Shop</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About Us</a>
+                            <a class="nav-link" href="#choosing-us" data-aos="zoom-in">About Us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
+                            <a class="nav-link" href="#" data-aos="zoom-in">Contact</a>
                         </li>
                     </ul>
                 </div>
 
-                <button class="bag-button">
-                    <i class="fa-solid fa-bag-shopping"></i>
+                <button class="bag-button shope" data-aos="zoom-in">
+                    <i class="fa-solid fa-bag-shopping "></i>
                     <div class="counter-products">4</div>
                 </button>
 
             </div>
         </nav>
 
-        <div id="hero">
+        <div id="hero" data-aos="zoom-out-up">
 
 
             <div id="carouselHeroSlidesOnly" class="carousel slide" data-bs-ride="carousel">
@@ -70,17 +71,17 @@
                         <p>Turn your room with panto into a lot more minimalist and modern with ease and speed</p>
                     </div>
                     <div class="carousel-item">
-                        <h2>Make your interior more minimalistic & modern</h2>
+                        <h2>Make Your Interior More Minimalistic & Modern</h2>
                         <p>Turn your room with panto into a lot more minimalist and modern with ease and speed</p>
                     </div>
                     <div class="carousel-item">
-                        <h2>Make your interior more minimalistic & modern</h2>
+                        <h2>Make Your Interior More Minimalistic & Modern</h2>
                         <p>Turn your room with panto into a lot more minimalist and modern with ease and speed</p>
                     </div>
                 </div>
             </div>
 
-            <form action="#">
+            <form action="#" data-aos="zoom-out-down">
 
                 <input type="text" placeholder="Search furniture">
                 <button><i class="bi bi-search"></i></button>
@@ -103,23 +104,26 @@
 
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-3 col-md-6">
+                    <div class="col-lg-3 col-md-6 " data-aos="fade-up" data-aos-duration="3000"
+                        data-aos-duration="2000">
                         <h2>Why <br> Choosing Us</h2>
                     </div>
-                    <div class="col-lg-3 col-md-6">
+                    <div class="col-lg-3 col-md-6 " data-aos="fade-down" data-aos-easing="linear"
+                        data-aos-duration="1500">
                         <h3>Luxury facilities</h3>
                         <p>The advantage of hiring a workspace with us is that givees you comfortable service and
                             all-around facilities.</p>
                         <a href="#">More Infos <i class="bi bi-arrow-right"></i></a>
                     </div>
-                    <div class="col-lg-3 col-md-6">
+                    <div class="col-lg-3 col-md-6 tablet" data-aos="fade-up" data-aos-duration="2000">
                         <h3>Affordable Price</h3>
                         <p>You can get a workspace of the highst quality at an affordable price and still enjoy the
                             facilities that are oly here.</p>
                         <a href="#">More Info <i class="bi bi-arrow-right"></i></a>
 
                     </div>
-                    <div class="col-lg-3 col-md-6">
+                    <div class="col-lg-3 col-md-6 tablet" data-aos="fade-down" data-aos-easing="linear"
+                        data-aos-duration="1500">
                         <h3>Many Choices</h3>
                         <p>We provide many unique work space choices so that you can choose the workspace to your
                             liking.</p>
@@ -136,13 +140,13 @@
 
         </section>
 
-        <section id="products">
+        <section id="products">D
             <div class="container">
                 <div class="row">
-                    <h2>Best Selling Product</h2>
+                    <h2 data-aos="zoom-in">Best Selling Product</h2>
 
 
-                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <ul class="nav nav-tabs" id="myTab" role="tablist" data-aos="flip-down">
                         <li class="nav-item" role="presentation">
                             <button class="nav-link active" id="chair-tab" data-bs-toggle="tab"
                                 data-bs-target="#chair-tab-pane" type="button" role="tab" aria-controls="chair-tab-pane"
@@ -174,7 +178,7 @@
 
                             <div class="slider-products">
 
-                                <div class="card-product">
+                                <div class="card-product" data-aos="fade-up" data-aos-duration="3000">
 
                                     <div class="cont-img">
                                         <img src="img/sakarias-armchair-black-sporda-dark-gray__0729767_pe737131_s5_adobespark (2).png"
@@ -197,7 +201,7 @@
                                     </div>
 
                                 </div>
-                                <div class="card-product">
+                                <div class="card-product" data-aos="fade-up" data-aos-duration="3000">
 
                                     <div class="cont-img">
                                         <img src="img/sakarias-armchair-black-sporda-dark-gray__0729767_pe737131_s5_adobespark (1).png"
@@ -220,7 +224,7 @@
                                     </div>
 
                                 </div>
-                                <div class="card-product">
+                                <div class="card-product" data-aos="fade-up" data-aos-duration="3000">
 
                                     <div class="cont-img">
                                         <img src="img/sakarias-armchair-black-sporda-dark-gray__0729767_pe737131_s5_adobespark.png"
@@ -243,7 +247,7 @@
                                     </div>
 
                                 </div>
-                                <div class="card-product">
+                                <div class="card-product" data-aos="fade-up" data-aos-duration="3000">
 
                                     <div class="cont-img">
                                         <img src="img/sakarias-armchair-black-sporda-dark-gray__0729767_pe737131_s5_adobespark (3).png"
@@ -266,15 +270,15 @@
                                     </div>
 
                                 </div>
-                                <div class="card-product">
+                                <div class="card-product" data-aos="fade-up" data-aos-duration="3000">
 
                                     <div class="cont-img">
-                                        <img src="img/sakarias-armchair-black-sporda-dark-gray__0729767_pe737131_s5_adobespark (3).png"
+                                        <img src="img/sakarias-armchair-black-sporda-dark-gray__0729767_pe737131_s5_adobespark (2).png"
                                             alt="Foto Producto">
                                     </div>
                                     <div class="cont-info">
                                         <p class="category">Chair</p>
-                                        <h3>Nyantuy Chair</h3>
+                                        <h3>Sakarias Armchair</h3>
                                         <div class="stars">
                                             <i class="bi bi-star-fill"></i>
                                             <i class="bi bi-star-fill"></i>
@@ -282,22 +286,22 @@
                                             <i class="bi bi-star-fill"></i>
                                             <i class="bi bi-star-fill"></i>
                                         </div>
-                                        <div class="d-flex justify-content-between align-items-center">
-                                            <h4><span>$</span>921</h4>
+                                        <div class="d-flex justify-content-between align-items-center ">
+                                            <h4><span>$</span>392</h4>
                                             <button><i class="bi bi-plus-lg"></i></button>
                                         </div>
                                     </div>
 
                                 </div>
-                                <div class="card-product">
+                                <div class="card-product" data-aos="fade-up" data-aos-duration="3000">
 
                                     <div class="cont-img">
-                                        <img src="img/sakarias-armchair-black-sporda-dark-gray__0729767_pe737131_s5_adobespark (3).png"
+                                        <img src="img/sakarias-armchair-black-sporda-dark-gray__0729767_pe737131_s5_adobespark (1).png"
                                             alt="Foto Producto">
                                     </div>
                                     <div class="cont-info">
                                         <p class="category">Chair</p>
-                                        <h3>Nyantuy Chair</h3>
+                                        <h3>Baltsar Chair</h3>
                                         <div class="stars">
                                             <i class="bi bi-star-fill"></i>
                                             <i class="bi bi-star-fill"></i>
@@ -306,7 +310,7 @@
                                             <i class="bi bi-star-fill"></i>
                                         </div>
                                         <div class="d-flex justify-content-between align-items-center">
-                                            <h4><span>$</span>921</h4>
+                                            <h4><span>$</span>299</h4>
                                             <button><i class="bi bi-plus-lg"></i></button>
                                         </div>
                                     </div>
@@ -326,7 +330,7 @@
 
                             <div class="slider-products">
 
-                                <div class="card-product">
+                                <div class="card-product" data-aos="fade-up" data-aos-duration="3000">
 
                                     <div class="cont-img">
                                         <img src="img/sakarias-armchair-black-sporda-dark-gray__0729767_pe737131_s5_adobespark (2).png"
@@ -349,7 +353,7 @@
                                     </div>
 
                                 </div>
-                                <div class="card-product">
+                                <div class="card-product" data-aos="fade-up" data-aos-duration="3000">
 
                                     <div class="cont-img">
                                         <img src="img/sakarias-armchair-black-sporda-dark-gray__0729767_pe737131_s5_adobespark (1).png"
@@ -372,7 +376,7 @@
                                     </div>
 
                                 </div>
-                                <div class="card-product">
+                                <div class="card-product" data-aos="fade-up" data-aos-duration="3000">
 
                                     <div class="cont-img">
                                         <img src="img/sakarias-armchair-black-sporda-dark-gray__0729767_pe737131_s5_adobespark.png"
@@ -395,7 +399,7 @@
                                     </div>
 
                                 </div>
-                                <div class="card-product">
+                                <div class="card-product" data-aos="fade-up" data-aos-duration="3000">
 
                                     <div class="cont-img">
                                         <img src="img/sakarias-armchair-black-sporda-dark-gray__0729767_pe737131_s5_adobespark (3).png"
@@ -418,15 +422,15 @@
                                     </div>
 
                                 </div>
-                                <div class="card-product">
+                                <div class="card-product" data-aos="fade-up" data-aos-duration="3000">
 
                                     <div class="cont-img">
-                                        <img src="img/sakarias-armchair-black-sporda-dark-gray__0729767_pe737131_s5_adobespark (3).png"
+                                        <img src="img/sakarias-armchair-black-sporda-dark-gray__0729767_pe737131_s5_adobespark (2).png"
                                             alt="Foto Producto">
                                     </div>
                                     <div class="cont-info">
                                         <p class="category">Chair</p>
-                                        <h3>Nyantuy Chair</h3>
+                                        <h3>Sakarias Armchair</h3>
                                         <div class="stars">
                                             <i class="bi bi-star-fill"></i>
                                             <i class="bi bi-star-fill"></i>
@@ -434,22 +438,22 @@
                                             <i class="bi bi-star-fill"></i>
                                             <i class="bi bi-star-fill"></i>
                                         </div>
-                                        <div class="d-flex justify-content-between align-items-center">
-                                            <h4><span>$</span>921</h4>
+                                        <div class="d-flex justify-content-between align-items-center ">
+                                            <h4><span>$</span>392</h4>
                                             <button><i class="bi bi-plus-lg"></i></button>
                                         </div>
                                     </div>
 
                                 </div>
-                                <div class="card-product">
+                                <div class="card-product" data-aos="fade-up" data-aos-duration="3000">
 
                                     <div class="cont-img">
-                                        <img src="img/sakarias-armchair-black-sporda-dark-gray__0729767_pe737131_s5_adobespark (3).png"
+                                        <img src="img/sakarias-armchair-black-sporda-dark-gray__0729767_pe737131_s5_adobespark (1).png"
                                             alt="Foto Producto">
                                     </div>
                                     <div class="cont-info">
                                         <p class="category">Chair</p>
-                                        <h3>Nyantuy Chair</h3>
+                                        <h3>Baltsar Chair</h3>
                                         <div class="stars">
                                             <i class="bi bi-star-fill"></i>
                                             <i class="bi bi-star-fill"></i>
@@ -458,7 +462,7 @@
                                             <i class="bi bi-star-fill"></i>
                                         </div>
                                         <div class="d-flex justify-content-between align-items-center">
-                                            <h4><span>$</span>921</h4>
+                                            <h4><span>$</span>299</h4>
                                             <button><i class="bi bi-plus-lg"></i></button>
                                         </div>
                                     </div>
@@ -476,7 +480,7 @@
 
                             <div class="slider-products">
 
-                                <div class="card-product">
+                                <div class="card-product" data-aos="fade-up" data-aos-duration="3000">
 
                                     <div class="cont-img">
                                         <img src="img/sakarias-armchair-black-sporda-dark-gray__0729767_pe737131_s5_adobespark (2).png"
@@ -499,7 +503,7 @@
                                     </div>
 
                                 </div>
-                                <div class="card-product">
+                                <div class="card-product" data-aos="fade-up" data-aos-duration="3000">
 
                                     <div class="cont-img">
                                         <img src="img/sakarias-armchair-black-sporda-dark-gray__0729767_pe737131_s5_adobespark (1).png"
@@ -522,7 +526,7 @@
                                     </div>
 
                                 </div>
-                                <div class="card-product">
+                                <div class="card-product" data-aos="fade-up" data-aos-duration="3000">
 
                                     <div class="cont-img">
                                         <img src="img/sakarias-armchair-black-sporda-dark-gray__0729767_pe737131_s5_adobespark.png"
@@ -545,7 +549,7 @@
                                     </div>
 
                                 </div>
-                                <div class="card-product">
+                                <div class="card-product" data-aos="fade-up" data-aos-duration="3000">
 
                                     <div class="cont-img">
                                         <img src="img/sakarias-armchair-black-sporda-dark-gray__0729767_pe737131_s5_adobespark (3).png"
@@ -568,15 +572,15 @@
                                     </div>
 
                                 </div>
-                                <div class="card-product">
+                                <div class="card-product" data-aos="fade-up" data-aos-duration="3000">
 
                                     <div class="cont-img">
-                                        <img src="img/sakarias-armchair-black-sporda-dark-gray__0729767_pe737131_s5_adobespark (3).png"
+                                        <img src="img/sakarias-armchair-black-sporda-dark-gray__0729767_pe737131_s5_adobespark (2).png"
                                             alt="Foto Producto">
                                     </div>
                                     <div class="cont-info">
                                         <p class="category">Chair</p>
-                                        <h3>Nyantuy Chair</h3>
+                                        <h3>Sakarias Armchair</h3>
                                         <div class="stars">
                                             <i class="bi bi-star-fill"></i>
                                             <i class="bi bi-star-fill"></i>
@@ -584,22 +588,22 @@
                                             <i class="bi bi-star-fill"></i>
                                             <i class="bi bi-star-fill"></i>
                                         </div>
-                                        <div class="d-flex justify-content-between align-items-center">
-                                            <h4><span>$</span>921</h4>
+                                        <div class="d-flex justify-content-between align-items-center ">
+                                            <h4><span>$</span>392</h4>
                                             <button><i class="bi bi-plus-lg"></i></button>
                                         </div>
                                     </div>
 
                                 </div>
-                                <div class="card-product">
+                                <div class="card-product" data-aos="fade-up" data-aos-duration="3000">
 
                                     <div class="cont-img">
-                                        <img src="img/sakarias-armchair-black-sporda-dark-gray__0729767_pe737131_s5_adobespark (3).png"
+                                        <img src="img/sakarias-armchair-black-sporda-dark-gray__0729767_pe737131_s5_adobespark (1).png"
                                             alt="Foto Producto">
                                     </div>
                                     <div class="cont-info">
                                         <p class="category">Chair</p>
-                                        <h3>Nyantuy Chair</h3>
+                                        <h3>Baltsar Chair</h3>
                                         <div class="stars">
                                             <i class="bi bi-star-fill"></i>
                                             <i class="bi bi-star-fill"></i>
@@ -608,7 +612,7 @@
                                             <i class="bi bi-star-fill"></i>
                                         </div>
                                         <div class="d-flex justify-content-between align-items-center">
-                                            <h4><span>$</span>921</h4>
+                                            <h4><span>$</span>299</h4>
                                             <button><i class="bi bi-plus-lg"></i></button>
                                         </div>
                                     </div>
@@ -622,10 +626,9 @@
                         </div>
                         <div class="tab-pane fade" id="lamp-tab-pane" role="tabpanel" aria-labelledby="lamp-tab"
                             tabindex="0">
-
                             <div class="slider-products">
 
-                                <div class="card-product">
+                                <div class="card-product" data-aos="fade-up" data-aos-duration="3000">
 
                                     <div class="cont-img">
                                         <img src="img/sakarias-armchair-black-sporda-dark-gray__0729767_pe737131_s5_adobespark (2).png"
@@ -648,7 +651,7 @@
                                     </div>
 
                                 </div>
-                                <div class="card-product">
+                                <div class="card-product" data-aos="fade-up" data-aos-duration="3000">
 
                                     <div class="cont-img">
                                         <img src="img/sakarias-armchair-black-sporda-dark-gray__0729767_pe737131_s5_adobespark (1).png"
@@ -671,7 +674,7 @@
                                     </div>
 
                                 </div>
-                                <div class="card-product">
+                                <div class="card-product" data-aos="fade-up" data-aos-duration="3000">
 
                                     <div class="cont-img">
                                         <img src="img/sakarias-armchair-black-sporda-dark-gray__0729767_pe737131_s5_adobespark.png"
@@ -694,7 +697,7 @@
                                     </div>
 
                                 </div>
-                                <div class="card-product">
+                                <div class="card-product" data-aos="fade-up" data-aos-duration="3000">
 
                                     <div class="cont-img">
                                         <img src="img/sakarias-armchair-black-sporda-dark-gray__0729767_pe737131_s5_adobespark (3).png"
@@ -717,15 +720,38 @@
                                     </div>
 
                                 </div>
-                                <div class="card-product">
+                                <div class="card-product" data-aos="fade-up" data-aos-duration="3000">
 
                                     <div class="cont-img">
-                                        <img src="img/sakarias-armchair-black-sporda-dark-gray__0729767_pe737131_s5_adobespark (3).png"
+                                        <img src="img/sakarias-armchair-black-sporda-dark-gray__0729767_pe737131_s5_adobespark (2).png"
                                             alt="Foto Producto">
                                     </div>
                                     <div class="cont-info">
                                         <p class="category">Chair</p>
-                                        <h3>Nyantuy Chair</h3>
+                                        <h3>Sakarias Armchair</h3>
+                                        <div class="stars">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                        </div>
+                                        <div class="d-flex justify-content-between align-items-center ">
+                                            <h4><span>$</span>392</h4>
+                                            <button><i class="bi bi-plus-lg"></i></button>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="card-product" data-aos="fade-up" data-aos-duration="3000">
+
+                                    <div class="cont-img">
+                                        <img src="img/sakarias-armchair-black-sporda-dark-gray__0729767_pe737131_s5_adobespark (1).png"
+                                            alt="Foto Producto">
+                                    </div>
+                                    <div class="cont-info">
+                                        <p class="category">Chair</p>
+                                        <h3>Baltsar Chair</h3>
                                         <div class="stars">
                                             <i class="bi bi-star-fill"></i>
                                             <i class="bi bi-star-fill"></i>
@@ -734,30 +760,7 @@
                                             <i class="bi bi-star-fill"></i>
                                         </div>
                                         <div class="d-flex justify-content-between align-items-center">
-                                            <h4><span>$</span>921</h4>
-                                            <button><i class="bi bi-plus-lg"></i></button>
-                                        </div>
-                                    </div>
-
-                                </div>
-                                <div class="card-product">
-
-                                    <div class="cont-img">
-                                        <img src="img/sakarias-armchair-black-sporda-dark-gray__0729767_pe737131_s5_adobespark (3).png"
-                                            alt="Foto Producto">
-                                    </div>
-                                    <div class="cont-info">
-                                        <p class="category">Chair</p>
-                                        <h3>Nyantuy Chair</h3>
-                                        <div class="stars">
-                                            <i class="bi bi-star-fill"></i>
-                                            <i class="bi bi-star-fill"></i>
-                                            <i class="bi bi-star-fill"></i>
-                                            <i class="bi bi-star-fill"></i>
-                                            <i class="bi bi-star-fill"></i>
-                                        </div>
-                                        <div class="d-flex justify-content-between align-items-center">
-                                            <h4><span>$</span>921</h4>
+                                            <h4><span>$</span>299</h4>
                                             <button><i class="bi bi-plus-lg"></i></button>
                                         </div>
                                     </div>
@@ -766,7 +769,7 @@
 
 
 
-                            </div>
+                            </div>>
 
                         </div>
                     </div>
@@ -782,12 +785,13 @@
 
                 <div class="row">
 
-                    <div class="col-md-6 cont-img">
+                    <div class="col-md-6 cont-img" data-aos="fade-up" data-aos-duration="3000">
                         <img src="img/Rectangle 1446.png " alt="Foto">
 
                     </div>
 
-                    <div class="col-md-6 cont-info">
+                    <div class="col-md-6 cont-info" data-aos="fade-down" data-aos-easing="linear"
+                        data-aos-duration="1500">
 
                         <h3>experiences</h3>
                         <h2>We Provide You The Best Experience</h2>
@@ -814,7 +818,7 @@
 
                 <div class="row">
 
-                    <div class="col-md-6 info">
+                    <div class="col-md-6 info" data-aos="fade-down">
 
                         <h3>Materials</h3>
                         <h2>Very Serious Materials For Making Furniture</h2>
@@ -830,13 +834,13 @@
                         <div class="row">
 
                             <div class="col-md-4 imagenes">
-                                <img src="img/Rectangle 1450.png" alt="Foto">
-                                <img src="img/Rectangle 1450 (1).png" alt="">
+                                <img src="img/Rectangle 1450.png" alt="Foto" data-aos="flip-up">
+                                <img src="img/Rectangle 1450 (1).png" alt="" data-aos="flip-up">
 
                             </div>
 
                             <div class="col-md-8 imagen-2">
-                                <img src="img/Rectangle 1446 (1).png" alt="">
+                                <img src="img/Rectangle 1446 (1).png" alt="Foto" data-aos="flip-up">
 
                             </div>
 
@@ -855,12 +859,12 @@
 
             <div class="container">
 
-                <h3>TESTIMONIALS</h3>
-                <h2>Our Client Reviews</h2>
+                <h3 data-aos="zoom-in">TESTIMONIALS</h3>
+                <h2 data-aos="zoom-in">Our Client Reviews</h2>
 
                 <div class="slider-reviews">
 
-                    <div class="card-review">
+                    <div class="card-review" data-aos="fade-up" data-aos-duration="3000">
 
                         <img class="fondo" src="img/unsplash__HqHX3LBN18.png" alt="Imagen Fondo">
 
@@ -883,9 +887,9 @@
 
 
                     </div>
-                    <div class="card-review">
+                    <div class="card-review" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
 
-                        <img class="fondo" src="img/unsplash__HqHX3LBN18.png" alt="Imagen Fondo">
+                        <img class="fondo" src="img/unsplash_JaXs8Tk5Iww.png" alt="Imagen Fondo">
 
                         <div class="cont-infos">
 
@@ -907,9 +911,9 @@
 
 
                     </div>
-                    <div class="card-review">
+                    <div class="card-review" data-aos="fade-up" data-aos-duration="3000">
 
-                        <img class="fondo" src="img/unsplash__HqHX3LBN18.png" alt="Imagen Fondo">
+                        <img class="fondo" src="img/unsplash_h2_3dL9yLpU.png" alt="Imagen Fondo">
 
                         <div class="cont-infos">
 
@@ -930,16 +934,40 @@
 
 
                     </div>
-                    <div class="card-review">
+                    <div class="card-review" data-aos="fade-up" data-aos-duration="3000">
 
                         <img class="fondo" src="img/unsplash__HqHX3LBN18.png" alt="Imagen Fondo">
 
                         <div class="cont-infos">
 
                             <img src="img/Ellipse 1131.png" alt="Foto Perfil">
+                            <h4>Bang Upin</h4>
+                            <h5>Pedagang Asongan</h5>
+                            <p>“Terimakasih banyak, kini ruanganku menjadi lebih mewah dan terlihat mahal“</p>
+                            <div class="stars">
+
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                    <div class="card-review" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+
+                        <img class="fondo" src="img/unsplash_JaXs8Tk5Iww.png" alt="Imagen Fondo">
+
+                        <div class="cont-infos">
+
+                            <img src="img/Ellipse 1132.png" alt="Foto Perfil">
                             <h4>Ibuk Sukijan</h4>
-                            <h5>Pedagang Asongan</h5>
-                            <p>“Terimakasih banyak, kini ruanganku menjadi lebih mewah dan terlihat mahal“</p>
+                            <h5>Ibu Rumah Tangga</h5>
+                            <p>“Makasih Panto, aku sekarang berasa tinggal di apartment karena barang-barang yang
+                                terlihat mewah“</p>
                             <div class="stars">
 
                                 <i class="bi bi-star-fill"></i>
@@ -953,16 +981,16 @@
 
 
                     </div>
-                    <div class="card-review">
+                    <div class="card-review" data-aos="fade-up" data-aos-duration="3000">
 
-                        <img class="fondo" src="img/unsplash__HqHX3LBN18.png" alt="Imagen Fondo">
+                        <img class="fondo" src="img/unsplash_h2_3dL9yLpU.png" alt="Imagen Fondo">
 
                         <div class="cont-infos">
 
-                            <img src="img/Ellipse 1131.png" alt="Foto Perfil">
-                            <h4>Bang Upin</h4>
-                            <h5>Pedagang Asongan</h5>
-                            <p>“Terimakasih banyak, kini ruanganku menjadi lebih mewah dan terlihat mahal“</p>
+                            <img src="img/Ellipse 1131 (1).png" alt="Foto Perfil">
+                            <h4>Mpok Ina</h4>
+                            <h5>Karyawan Swasta</h5>
+                            <p>“Sangat terjangkau untuk kantong saya yang tidak terlalu banyak“</p>
                             <div class="stars">
 
                                 <i class="bi bi-star-fill"></i>
@@ -976,29 +1004,7 @@
 
 
                     </div>
-                    <div class="card-review">
 
-                        <img class="fondo" src="img/unsplash__HqHX3LBN18.png" alt="Imagen Fondo">
-
-                        <div class="cont-infos">
-
-                            <img src="img/Ellipse 1131.png" alt="Foto Perfil">
-                            <h4>Bang Upin</h4>
-                            <h5>Pedagang Asongan</h5>
-                            <p>“Terimakasih banyak, kini ruanganku menjadi lebih mewah dan terlihat mahal“</p>
-                            <div class="stars">
-
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                            </div>
-
-                        </div>
-
-
-                    </div>
 
                 </div>
 
@@ -1011,7 +1017,7 @@
 
     </main>
 
-    <footer>
+    <footer data-aos="fade-up">
         <div class="container info">
             <div class="row">
                 <div class="col-md-6">
@@ -1029,28 +1035,31 @@
                 </div>
                 <div class="col-md-2 col-footer">
                     <h3>Furniture</h3>
-                    <a href="#">Beds</a>
-                    <a href="#">Chair</a>
+                    <a href="#beds-tab-pane">Beds</a>
+                    <a href="#chair-tab-pane">Chair</a>
                     <a href="#">All</a>
                 </div>
                 <div class="col-md-2 col-footer">
                     <h3>Follow Us</h3>
                     <ul>
-                        <li><i class="fa-brands fa-facebook-f"></i> <a href="#">Facebook</a></li>
-                        <li><i class="fa-brands fa-twitter"></i> <a href="#">Twitter</a></li>
-                        <li><i class="fa-brands fa-instagram"></i> <a href="#">Instagram</a></li>
+                        <li><i class="fa-brands fa-facebook-f"></i> <a href="https://www.facebook.com/"
+                                target="_blank">Facebook</a></li>
+                        <li><i class="fa-brands fa-twitter"></i> <a href="https://x.com/" target="_blank">Twitter</a>
+                        </li>
+                        <li><i class="fa-brands fa-instagram"></i> <a href="https://www.instagram.com/"
+                                target="_blank">Instagram</a></li>
                     </ul>
                 </div>
             </div>
 
             <div class="row footer-bottom">
-                <div class="col-lg-8">
+                <div class="col-md-8">
                     <p class="copy">Copyright © 2025</p>
                 </div>
-                <div class="col-lg-2">
+                <div class="col-md-2">
                     <a href="#">Terms & Conditions</a>
                 </div>
-                <div class="col-lg-2">
+                <div class="col-md-2">
                     <a href="#">Privacy Policy</a>
                 </div>
             </div>
@@ -1072,6 +1081,11 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
     <script src="js/main.js"></script>
 

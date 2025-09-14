@@ -12,11 +12,11 @@ $(document).ready(function () {
             {
                 breakpoint: 992, // tablets y pantallas medianas
                 settings: {
-                    slidesToShow: 2
+                    slidesToShow: 3
                 }
             },
             {
-                breakpoint: 576, // móviles
+                breakpoint: 740, // móviles
                 settings: {
                     slidesToShow: 1
                 }
